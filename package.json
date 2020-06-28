@@ -1,7 +1,9 @@
 {
-  "name": "kiwi-api-wrapper",
-  "version": "1.0.0",
-  "description": "An api wrapper for using the Kiwi app",
+  "name": "@kiwidb/api-wrapper",
+  "version": "1.0.1",
+  "description": "An api wrapper for KiwiDB",
+  "engines": { "node": ">= 12.4.0" },
+  "keywords": [ "kiwidb", "wrapper", "api" ],
   "author": "BRA1L0R",
   "license": "MIT",
   "main": "dist/index.min.js",
