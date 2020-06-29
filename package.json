@@ -4,6 +4,7 @@
   "description": "An api wrapper for KiwiDB",
   "engines": { "node": ">= 12.4.0" },
   "keywords": [ "kiwidb", "wrapper", "api" ],
+  "repository": "https://github.com/Kiwi-DB/api-wrapper",
   "author": "BRA1L0R",
   "license": "MIT",
   "main": "dist/index.min.js",
