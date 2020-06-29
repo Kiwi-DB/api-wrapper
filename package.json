@@ -1,6 +1,6 @@
 {
   "name": "@kiwidb/api-wrapper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An api wrapper for KiwiDB",
   "engines": { "node": ">= 12.4.0" },
   "keywords": [ "kiwidb", "wrapper", "api" ],
