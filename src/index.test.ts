@@ -39,5 +39,16 @@ describe("Test of the http requests", () => {
         const res = await db.set("key", "testvalue")
         return ""
     })
+
+    test("the request method should be DELETE request", async () => {
+        fetchMock.mockOnce(async req => {
+            expect(req.method).toBe("DELETE");
+
+            return ""
+        })
+
+        const res = await db.delete("value")
+        return ""
+    })
 })
 
